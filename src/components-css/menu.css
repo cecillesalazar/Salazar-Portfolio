@@ -1,0 +1,107 @@
+.logo {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+		text-align: center;
+		background: #a6e4e7;
+}
+
+p {
+		color: #ddd;
+		font-family: Helvetica;
+		font-size: 20px;
+		margin: 20px 0 0 0;
+}
+
+a {
+		color: #000;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-family: Helvetica;
+}
+
+a,
+span {
+		font-size: 20px;
+}
+
+svg {
+		width: 130px;
+		height: 40px;
+}
+
+
+/* THE ROUND PSEUDO-ELEMENT HOVER STYLES */
+.round,
+.svg,
+.highlight {
+    height: 703px;
+    width: 1278px;
+		margin:0 auto;
+}
+
+.round a {
+		color: crimson;
+}
+
+.round .button {
+		display: inline-block;
+		width: 130px;
+		height: 40px;
+		line-height: 40px;
+		margin: 20px;
+		position: relative;
+		overflow: hidden;
+		border: 2px solid crimson;
+		transition: color .5s;
+    top: 20%;
+}
+
+.round .button:before {
+		content: "";
+		position: absolute;
+		z-index: -1;
+		background: crimson;
+		height: 150px;
+		width: 200px;
+		border-radius: 50%;
+}
+
+.round .button:hover {
+		color: #fff;
+}
+
+.round .button:nth-child(1):before {
+		top: 100%;
+		left: 100%;
+		transition: all .7s;
+}
+
+.round .button:nth-child(1):hover:before {
+		top: -30px;
+		left: -30px;
+}
+
+.round .button:nth-child(2):before {
+		left: -30px;
+		bottom: 100%;
+		transition: all .7s;
+}
+
+.round .button:nth-child(2):hover:before {
+		bottom: -50px;
+}
+
+.round .button:nth-child(3):before {
+		top: 0;
+		left: -200%;
+		transition: all .7s;
+}
+
+.round .button:nth-child(3):hover:before {
+		top: -30px;
+		left: -30px;
+}
