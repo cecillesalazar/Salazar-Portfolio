@@ -1,15 +1,36 @@
 import React from 'react';
 import '../components-css/menu.css';
+import { showDashboard } from '../actions';
+import { connect } from 'react-redux';
+import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import Dashboard from './dashboard';
 
-export default class Menu extends React.Component {
+class Menu extends React.Component {
+  constructor(props) {
+    super(props)
+    this.displayDashboard = this.displayDashboard.bind(this);
+  }
+
+  displayDashboard() {
+    !this.props.showDashboard ? this.props.dispatch(showDashboard(true)) : ''
+  }
+
   render() {
-    return (
-      <div className="menu-body">
-        <img className="logo" src="https://s25.postimg.cc/tmobd6ypb/Logo_Makr_8by_J87.png" alt="portfolio logo"/>
-        <div className="round">
-          <a class="button" href="#">Open</a>
+    if(this.props.showDashboard) {
+      return <Dashboard />
+    } else {
+      return (
+        <div className="menu-body">
+          <img className="logo" src="https://s25.postimg.cc/tmobd6ypb/Logo_Makr_8by_J87.png" alt="portfolio logo"/>
+          <button type="button" onClick={() => this.displayDashboard()}>Open</button>
         </div>
-      </div>
-    )
+      )
+    }
   }
 }
+
+const mapStateToProps = state => ({
+  showDashboard: state.showDashboard
+});
+
+export default connect(mapStateToProps)(Menu);
