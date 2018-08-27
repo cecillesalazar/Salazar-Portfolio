@@ -1,7 +1,9 @@
-.logo {
+h1 {
   position: relative;
+  margin-top: 200px;
   margin-left: auto;
   margin-right: auto;
+  font-size: 90px;
 }
 
 body {

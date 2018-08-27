@@ -22,9 +22,10 @@ class Menu extends React.Component {
     } else {
       return (
         <div className="menu-body">
-          <img className="logo" src="https://s25.postimg.cc/tmobd6ypb/Logo_Makr_8by_J87.png" alt="portfolio logo"/>
+          <h1 className="header"><strong>DevPortal</strong></h1>
           <div className="flex">
-            <button type="button" className="myButt one" onClick={() => this.displayDashboard()}>Open</button>
+            <button type="button" className="myButt one" onClick={() => this.displayDashboard()}>New Game</button>
+            <button type="button" className="myButt one" onClick={() => this.displayDashboard()}>Tutorial</button>
           </div>
         </div>
       )
