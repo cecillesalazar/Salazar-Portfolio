@@ -1,0 +1,11 @@
+.dialogue-box {
+  position: fixed;
+  height: 25%;
+  width: 90%;
+  bottom: 10%;
+  margin-right: 5%;
+  margin-left: 5%;
+  border: 2px solid white;
+  background-color: #0f3f2e;
+  opacity: .5;
+}
