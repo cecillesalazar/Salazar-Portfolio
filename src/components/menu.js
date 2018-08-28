@@ -5,6 +5,7 @@ import { showDashboard } from '../actions';
 import { connect } from 'react-redux';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import Dashboard from './dashboard';
+import TypeWriter from 'react-typewriter';
 
 class Menu extends React.Component {
   constructor(props) {
@@ -22,10 +23,9 @@ class Menu extends React.Component {
     } else {
       return (
         <div className="menu-body">
-          <h1 className="header"><strong><span style={{ fontSize: '130px'}}>Salazar</span><br/>DevPortal</strong></h1>
+          <h1 className="header"><TypeWriter typing={1}><strong><span style={{ fontSize: '130px'}}>Hi,</span><br/>{'I\'m Cecille.'}<br/>Nice to meet you.</strong></TypeWriter></h1>
           <div className="flex">
-            <button type="button" className="myButt one" onClick={() => this.displayDashboard()}>Begin</button>
-            <button type="button" className="myButt one" onClick={() => this.displayDashboard()}>Tutorial</button>
+            <button type="button" className="myButt one" onClick={() => this.displayDashboard()}>See my work</button>
           </div>
         </div>
       )
