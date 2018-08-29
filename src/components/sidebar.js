@@ -1,4 +1,5 @@
 import React from 'react';
+import '../components-css/sidebar.css';
 
 export default class Sidebar extends React.Component {
   render() {

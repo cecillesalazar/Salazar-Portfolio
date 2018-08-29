@@ -1,13 +1,15 @@
 import React from 'react';
 import '../components-css/dashboard.css';
 import Floats from './floats';
+import Sidebar from './sidebar';
 import Stats from './stats';
 import TypeWriter from 'react-typewriter'
 
 export default class Dashboard extends React.Component {
   render() {
     return (
-      <div>
+      <div className="dashboard">
+        <Sidebar />
         <div className="tagline-container">
           <h1 className="tagline">
             <TypeWriter typing={1}>
