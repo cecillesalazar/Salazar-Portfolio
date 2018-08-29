@@ -1,6 +1,7 @@
 import React from 'react';
 import '../components-css/dashboard.css';
 import Floats from './floats';
+import Stats from './stats';
 import TypeWriter from 'react-typewriter'
 
 export default class Dashboard extends React.Component {
@@ -21,6 +22,7 @@ export default class Dashboard extends React.Component {
           <a href="#">
             <span class="bottom"></span>
           </a>
+        <Stats />
         </div>
       </div>
     )
