@@ -13,9 +13,9 @@ export default class Dashboard extends React.Component {
             <br/>Shiba Inu Mom :)
             </TypeWriter>
           </h1>
-
-          <div className="floating">
-          </div>
+          <div className="floating-one"></div>
+          <div className="floating-two"></div>
+          <div className="floating-three"></div>
       </div>
     )
 

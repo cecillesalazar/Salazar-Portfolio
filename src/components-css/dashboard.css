@@ -1,7 +1,25 @@
-.floating {
-  height: 200px;
-  width: 200px;
-  background-image: url('https://s25.postimg.cc/vkj2yjd5r/mikomajesticcrop.jpg');
+.floating-one {
+  height: 300px;
+  width: 300px;
+  background-image: url('https://s25.postimg.cc/5c7y9cg9b/imageedit_1_3890977509.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 10px solid #7fe6ef;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+  border-radius: 50%;
+  position: fixed;
+  left: 20%;
+}
+
+.floating-two {
+  height: 175px;
+  width: 175px;
+  background-image: url('https://s25.postimg.cc/wzknnhyvz/designstockpic.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   border: 10px solid #FAA622;
@@ -12,6 +30,28 @@
   margin-left: 30px;
   margin-top: 5px;
   border-radius: 50%;
+  position: fixed;
+  left: 40%;
+  top: 75%;
+
+}
+
+.floating-three {
+  height: 230px;
+  width: 230px;
+  background-image: url('https://s25.postimg.cc/vkj2yjd5r/mikomajesticcrop.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 10px solid #c4d70c;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+  border-radius: 50%;
+  position: fixed;
+  left: 60%;
 }
 
 @keyframes floating {
