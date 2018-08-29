@@ -23,7 +23,9 @@ class Menu extends React.Component {
     } else {
       return (
         <div className="menu-body">
-          <h1 className="header"><TypeWriter typing={1}><strong><span style={{ fontSize: '130px'}}>Hi,</span><br/>{'I\'m Cecille.'}<br/>Nice to meet you.</strong></TypeWriter></h1>
+          <div className="header-container">
+            <h1 className="header"><TypeWriter typing={1}><strong><span style={{ fontSize: '130px'}}>Hi,</span><br/>{'I\'m Cecille.'}<br/>Nice to meet you.</strong></TypeWriter></h1>
+          </div>
           <div className="flex">
             <button type="button" className="myButt one" onClick={() => this.displayDashboard()}>See my work</button>
           </div>

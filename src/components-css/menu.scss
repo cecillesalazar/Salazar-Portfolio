@@ -1,3 +1,13 @@
+.header-container {
+	height: 400px;
+	width: 100%;
+	position: relative;
+}
+
+.header {
+	position: relative;
+}
+
 @mixin transition($in) {
 	transition:$in;
 	-webkit-transition:$in;
