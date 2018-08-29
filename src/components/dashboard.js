@@ -1,5 +1,6 @@
 import React from 'react';
 import '../components-css/dashboard.css';
+import Floats from './floats';
 import TypeWriter from 'react-typewriter'
 
 export default class Dashboard extends React.Component {
@@ -13,9 +14,12 @@ export default class Dashboard extends React.Component {
             <br/>Shiba Inu Mom :)
             </TypeWriter>
           </h1>
-          <div className="floating-one"></div>
-          <div className="floating-two"></div>
-          <div className="floating-three"></div>
+          <Floats />
+          <div className="down-button">
+            <a href="#">
+              <span class="bottom"></span>
+            </a>
+          </div>
       </div>
     )
 

@@ -1,9 +1,10 @@
 h1 {
   position: relative;
-  margin-top: 200px;
+  margin-top: 150px;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 90px;
+  font-size: 80px;
 }
 
 body {
