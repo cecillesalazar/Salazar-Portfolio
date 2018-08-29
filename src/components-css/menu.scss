@@ -98,6 +98,9 @@ header {
 .down-button {
   display: inline-block;
   vertical-align: middle;
+	position: relative;
+	height: 100px;
+	width: 100%;
 }
 
 a {
@@ -121,6 +124,7 @@ a:hover .left:after, a:hover .top:after, a:hover .bottom:after, a:hover .right:a
   border: 0.5em solid #333;
   border-radius: 50%;
   margin-left: 0.75em;
+	position: relative;
 }
 
 .bottom:after {
