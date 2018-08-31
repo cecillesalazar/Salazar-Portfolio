@@ -11,13 +11,20 @@ export default class Dashboard extends React.Component {
     super(props)
 
     this.state = {
-      firstDownButton: false
+      firstDownButton: false,
+      secondDownButton: false
     }
   }
 
   firstButtonClicked(bool) {
     this.setState({
       firstDownButton: bool
+    })
+  }
+
+  secondButtonClicked(bool) {
+    this.setState({
+      secondDownButton: bool
     })
   }
 
@@ -36,10 +43,13 @@ export default class Dashboard extends React.Component {
             </h1>
           </div>
           <Floats />
+          <a className="down-button-2" href="#" onClick={() => this.secondButtonClicked(true)}>
+            <span class="bottom"></span>
+          </a>
           <SocialMedia />
         </div>
       )
-    } else {
+    } else if (!this.state.firstDownButton){
       return (
         <div className="dashboard">
           <Sidebar />
@@ -58,6 +68,8 @@ export default class Dashboard extends React.Component {
           </a>
         </div>
       )
+    } else if (this.state.secondDownButton) {
+
     }
   }
 }
