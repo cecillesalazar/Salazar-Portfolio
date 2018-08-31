@@ -5,6 +5,7 @@ import Sidebar from './sidebar';
 import SocialMedia from './socialmedia'
 import Stats from './stats';
 import TypeWriter from 'react-typewriter'
+import { BrowserRouter, Route, Link } from 'react-router-dom'
 
 export default class Dashboard extends React.Component {
   constructor(props) {
