@@ -35,7 +35,7 @@ export default class Dashboard extends React.Component {
             </h1>
           </div>
           <Floats />
-          <Stats />
+          <Sidebar />
         </div>
       )
     } else {

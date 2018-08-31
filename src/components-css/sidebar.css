@@ -1,27 +1,70 @@
 .sidebar {
   position: relative;
   height: 100%;
-  width: 10%;
+  width: 30%;
   background-color: pink;
 }
 
 
 .orange {
-
-}
-
-.yellow {
-
+  position: fixed;
+  display: inline-block;
+  right: 10%;
+  width: 2%;
+  height: 100%;
+  background-color: #faa622;
 }
 
 .blue {
-
+  position: fixed;
+  display: inline-block;
+  right: 12%;
+  width: 2%;
+  height: 100%;
+  background-color: #7fe6ef;
 }
 
 .green {
-
+  position: fixed;
+  display: inline-block;
+  right: 14%;
+  width: 2%;
+  height: 100%;
+  background-color: #c4d70c;
 }
 
 .red {
+  position: fixed;
+  display: inline-block;
+  right: 16%;
+  width: 2%;
+  height: 100%;
+  background-color: #c22303;
+}
 
+.blue-right {
+  position: fixed;
+  display: inline-block;
+  right: 8%;
+  width: 2%;
+  height: 100%;
+  background-color: #7fe6ef;
+}
+
+.green-right {
+  position: fixed;
+  display: inline-block;
+  right: 6%;
+  width: 2%;
+  height: 100%;
+  background-color: #c4d70c;
+}
+
+.red-right {
+  position: fixed;
+  display: inline-block;
+  right: 4%;
+  width: 2%;
+  height: 100%;
+  background-color: #c22303;
 }
