@@ -81,31 +81,3 @@ body {
     65%  { transform: translate(0, 15px); }
     to   { transform: translate(0, -0px); }
 }
-
-/* .dialogue-box {
-  position: fixed;
-  height: 25%;
-  width: 90%;
-  bottom: 10%;
-  margin-right: 5%;
-  margin-left: 5%;
-  border: 2px solid white;
-  background-color: #0f3f2e;
-}
-
-.character {
-  position: fixed;
-  bottom: 36%;
-  right: 7%;
-  height: 300px;
-  width: 150px;
-  background-color: #0f3f2e;
-  border: 2px solid white;
-}
-
-.character-name {
-  position: fixed;
-  bottom: 33%;
-  left: 6%;
-  font-size: 25px;
-} */

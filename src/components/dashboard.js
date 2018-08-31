@@ -2,6 +2,7 @@ import React from 'react';
 import '../components-css/dashboard.css';
 import Floats from './floats';
 import Sidebar from './sidebar';
+import SocialMedia from './socialmedia'
 import Stats from './stats';
 import TypeWriter from 'react-typewriter'
 
@@ -24,7 +25,7 @@ export default class Dashboard extends React.Component {
     if(this.state.firstDownButton) {
       return (
         <div className="dashboard">
-          <Sidebar />
+          <SocialMedia />
           <div className="tagline-container">
             <h1 className="tagline">
               <TypeWriter typing={1}>
@@ -36,6 +37,7 @@ export default class Dashboard extends React.Component {
           </div>
           <Floats />
           <Sidebar />
+          <SocialMedia />
         </div>
       )
     } else {
@@ -59,12 +61,3 @@ export default class Dashboard extends React.Component {
     }
   }
 }
-
-//For After Sketches Submitted
-// <div>
-//   <p className="character-name">Cecille</p>
-//   <div className="character">
-//     <p className="character-box-text">Character Bust Placeholder</p>
-//   </div>
-//   <div className="dialogue-box"></div>
-// </div>
