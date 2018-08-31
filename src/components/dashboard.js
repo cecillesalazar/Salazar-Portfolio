@@ -15,9 +15,9 @@ export default class Dashboard extends React.Component {
     }
   }
 
-  firstButtonClicked() {
+  firstButtonClicked(bool) {
     this.setState({
-      firstDownButton: true
+      firstDownButton: bool
     })
   }
 
@@ -53,7 +53,7 @@ export default class Dashboard extends React.Component {
             </h1>
           </div>
           <SocialMedia />
-          <a className="down-button-1" href="#" onClick={() => this.firstButtonClicked()}>
+          <a className="down-button-1" href="#" onClick={() => this.firstButtonClicked(true)}>
             <span class="bottom"></span>
           </a>
         </div>
