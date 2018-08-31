@@ -12,12 +12,13 @@ body {
 .tagline {
   position: relative;
   font-size: 55px;
-  padding-top: 50px;
+  padding-top: 75px;
 }
 
 .floats-container {
   height: 420px;
   width: 100%;
+  margin-top: 30px;
 }
 
 .floating-one {

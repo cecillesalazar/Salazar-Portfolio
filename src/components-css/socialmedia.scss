@@ -26,6 +26,9 @@ $social-brand-github: #000000;
 
 .rounded-social-buttons {
   text-align: center;
+  position: fixed;
+  top: 2.5%;
+  left: 2%;
 
   .social-button {
     display: inline-block;
