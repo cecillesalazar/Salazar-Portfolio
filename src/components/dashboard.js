@@ -53,7 +53,7 @@ export default class Dashboard extends React.Component {
             </h1>
           </div>
           <SocialMedia />
-          <a href="#" onClick={() => this.firstButtonClicked()}>
+          <a className="down-button-1" href="#" onClick={() => this.firstButtonClicked()}>
             <span class="bottom"></span>
           </a>
         </div>
