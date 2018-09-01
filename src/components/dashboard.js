@@ -5,7 +5,7 @@ import Sidebar from './sidebar';
 import SocialMedia from './socialmedia'
 import Stats from './stats';
 import TypeWriter from 'react-typewriter'
-import { BrowserRouter, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 
 export default class Dashboard extends React.Component {
   constructor(props) {
@@ -20,12 +20,6 @@ export default class Dashboard extends React.Component {
   firstButtonClicked(bool) {
     this.setState({
       firstDownButton: bool
-    })
-  }
-
-  secondButtonClicked(bool) {
-    this.setState({
-      secondDownButton: bool
     })
   }
 
@@ -44,9 +38,16 @@ export default class Dashboard extends React.Component {
             </h1>
           </div>
           <Floats />
-          <a className="down-button-2" href="#" onClick={() => this.secondButtonClicked(true)}>
-            <span class="bottom"></span>
-          </a>
+          <Router>
+            <a className="down-button-2" href="#">
+              <Link to={{hash:"stats"}}>
+                <span class="bottom"></span>
+              </Link>
+            </a>
+          </Router>
+          <div className="stats">
+            <Stats />
+          </div>
           <SocialMedia />
         </div>
       )
@@ -69,8 +70,6 @@ export default class Dashboard extends React.Component {
           </a>
         </div>
       )
-    } else if (this.state.secondDownButton) {
-
     }
   }
 }
