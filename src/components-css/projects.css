@@ -1,0 +1,35 @@
+.projects-container {
+  height: 800px;
+  width: 100%;
+}
+
+h1 {
+  position: relative;
+}
+
+.Historia {
+  position: relative;
+  margin-top: 5%;
+  display: inline-block;
+  height: 300px;
+  width: 400px;
+  background-color: red;
+}
+
+.Historia:hover {
+  background-color: blue;
+}
+
+.Miko-Adventures {
+  position: relative;
+  margin-top: 5%;
+  margin-left: 3%;
+  display: inline-block;
+  height: 300px;
+  width: 400px;
+  background-color: red;
+}
+
+.Miko-Adventures:hover {
+  background-color: blue;
+}

@@ -2,8 +2,9 @@ import React from 'react';
 import '../components-css/dashboard.css';
 import Floats from './floats';
 import Sidebar from './sidebar';
-import SocialMedia from './socialmedia'
+import SocialMedia from './socialmedia';
 import Stats from './stats';
+import Projects from './projects';
 import TypeWriter from 'react-typewriter'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 
@@ -47,6 +48,7 @@ export default class Dashboard extends React.Component {
           </Router>
           <div className="stats">
             <Stats />
+            <Projects />
           </div>
           <SocialMedia />
         </div>
