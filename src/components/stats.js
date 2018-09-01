@@ -103,7 +103,11 @@ export default class Stats extends React.Component {
             </div>
           </li>
         </ul>
+        <a className="down-button-stats" href="#">
+            <span class="bottom"></span>
+        </a>
       </div>
+
     )
   }
 }
