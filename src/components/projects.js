@@ -55,7 +55,7 @@ export default class Projects extends React.Component {
             </div>
           </div>
 
-          <a className="down-button-3" href="#">
+          <a className="down-button-4" href="#">
             <Link to="/contact">
               <span className="bottom"></span>
             </Link>
