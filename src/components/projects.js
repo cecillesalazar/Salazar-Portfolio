@@ -7,10 +7,11 @@ export default class Projects extends React.Component {
       <div className="">
         <h1>{'What I\'m working on...'}</h1>
         <div className="Historia">
-        <div className="historia-text">Placeholder text</div>
+          <p className="historia-text">Placeholder text</p>
         </div>
         <div className="Miko-Adventures">
-        <div className="miko-adventures-text">Placeholder text</div></div>
+          <p className="miko-adventures-text">Placeholder text</p>
+        </div>
       </div>
     )
   }

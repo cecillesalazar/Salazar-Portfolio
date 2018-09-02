@@ -18,9 +18,44 @@ h1 {
   background-repeat: no-repeat;
 }
 
-.Historia:hover {
+.Historia:hover .historia-text {
   opacity: .5;
-  
+  visibility: visible;
+}
+
+.historia-text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+
+.Miko-Adventures:hover .miko-adventures-text {
+  opacity: 1;
+  visibility: visible;
+}
+.miko-adventures-text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
 }
 
 .Miko-Adventures {
