@@ -77,7 +77,7 @@ export default class Stats extends React.Component {
               </div>
             </li><li>
                 <div className="javascript-logo">
-                  <img src="https://s25.postimg.cc/kptd7xxr3/Screen_Shot_2018-09-01_at_1.58.13_PM.png" alt=""/>
+                  <img src="https://s25.postimg.cc/db8mtobnj/Screen_Shot_2018-09-01_at_10.07.54_PM.png" alt=""/>
                   <h1>This is a title</h1>
                   <p>Some sample text about the article this hexagon leads to</p>
               </div>
