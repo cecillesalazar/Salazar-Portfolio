@@ -8,7 +8,6 @@
   display: inline-block;
   left: 0%;
   bottom: 10%;
-  background-color: red;
   height: 300px;
   width: 400px;
   margin-right: 3%;
@@ -19,23 +18,22 @@
   display: inline-block;
   left: 0%;
   bottom: 10%;
-  background-color: red;
   height: 300px;
   width: 400px;
 }
 
 .border {
-  /* display: inline-block;
   position: absolute;
-  left: 24%; */
+  left: 19%;
 }
 
 .labels {
-  /* margin-left: 0px;
+  font-size:20px;
+  display: inline-block;
+  margin-left: 2%;
   display: inline-block;
   position: absolute;
-  left: 17.5%;
-  font-size: 22px; */
+  left: 0;
 }
 
 h1 {
