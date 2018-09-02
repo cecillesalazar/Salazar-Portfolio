@@ -24,6 +24,7 @@
 
 .border {
   position: absolute;
+  display: inline-block;
   left: 19%;
 }
 

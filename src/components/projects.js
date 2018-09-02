@@ -22,6 +22,16 @@ export default class Projects extends React.Component {
             <div className="border" style={{ border: "2px solid #c22303", width: "300px" }}>
               <div className="bar" style={{ height: "24px", width: "20%", backgroundColor: "#c4d70c" }}></div>
             </div>
+            <p className="labels" style={{ top: "12%" }}>Node</p>
+            <div className="border" style={{ border: "2px solid #c22303", width: "300px", top: "12%" }}>
+              <div className="bar" style={{ height: "24px", width: "20%", backgroundColor: "#c4d70c" }}></div>
+            </div>
+            <p className="labels" style={{ top: "24%" }}>React</p>
+            <div className="border" style={{ border: "2px solid #c22303", width: "300px", top: "24%" }}>
+              <div className="bar" style={{ height: "24px", width: "20%", backgroundColor: "#c4d70c" }}></div>
+            </div>
+
+
           </div>
           <div className="miko-adventures-stats-container">
             <p className="labels">HTML5</p>
