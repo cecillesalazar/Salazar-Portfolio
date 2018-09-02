@@ -42,9 +42,8 @@ export default class Projects extends React.Component {
             <div className="border" style={{ border: "2px solid #c22303", width: "300px", top: "60%" }}>
               <div className="bar" style={{ height: "24px", width: "5%", backgroundColor: "#c4d70c" }}></div>
             </div>
-
-
           </div>
+
           <div className="miko-adventures-stats-container">
             <p className="labels" style={{ top: "12%" }}>Phaser</p>
             <div className="border" style={{ border: "2px solid #c22303", width: "300px", backgroundColor: "#ffe52c" }}>
@@ -61,6 +60,7 @@ export default class Projects extends React.Component {
               <span className="bottom"></span>
             </Link>
           </a>
+          
           <Route exact path="/contact" component={Contact} />
         </div>
       </Router>
