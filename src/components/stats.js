@@ -100,7 +100,7 @@ export default class Stats extends React.Component {
             <li class="pusher"></li>
             <li>
                 <div className="sass-logo">
-                  <img src="https://s25.postimg.cc/xtyxkqcz3/Screen_Shot_2018-09-01_at_2.07.21_PM.png" alt=""/>
+                  <img src="https://s25.postimg.cc/6m23d65lr/Screen_Shot_2018-09-01_at_10.22.14_PM.png" alt=""/>
                   <h1>This is a title</h1>
                   <p>Some sample text about the article this hexagon leads to</p>
               </div>
