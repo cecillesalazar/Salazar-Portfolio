@@ -18,6 +18,10 @@ h1 {
   background-repeat: no-repeat;
 }
 
+.Historia:hover {
+  opacity: .5;
+}
+
 .Miko-Adventures {
   position: relative;
   margin-top: 5%;
@@ -28,4 +32,8 @@ h1 {
   background-image: url('https://s25.postimg.cc/zaag2usqn/Screen_Shot_2018-09-01_at_3.08.32_PM.png');
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.Miko-Adventures:hover {
+  opacity: .5;
 }
