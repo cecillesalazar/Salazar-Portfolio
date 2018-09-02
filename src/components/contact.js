@@ -6,11 +6,21 @@ export default class Contact extends React.Component {
     return (
       <div>
       <h1>Interested in collaborating?</h1>
-        <p>{'Let\'s grab coffee (on me)!'}</p>
+        <h2 className="contact-header">{'Let\'s grab coffee (on me)!'}</h2>
         <ul>
-          <li>Slack: cecillesalazar</li>
-          <li>Email: cecillersalazar@gmail.com</li>
+          <li className="contact-li">Slack: cecillesalazar</li>
+          <li className="contact-li">Email: cecillersalazar@gmail.com</li>
         </ul>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <h2 className="closing-quote">"Work and play are words used to describe the same thing under differing conditions."</h2>
+        <h4 className="quote-author">Mark Twain</h4>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
       </div>
     )
   }
