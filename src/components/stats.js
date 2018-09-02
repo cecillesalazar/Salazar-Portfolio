@@ -56,7 +56,7 @@ export default class Stats extends React.Component {
 
             <li>
                 <div className="postgres-logo">
-                  <img src="https://s25.postimg.cc/om6p3uqfj/Screen_Shot_2018-09-01_at_1.48.13_PM.png" alt=""/>
+                  <img src="https://s25.postimg.cc/rufruyf1b/Screen_Shot_2018-09-01_at_9.56.29_PM.png" alt=""/>
                   <h1>This is a title</h1>
                   <p>Some sample text about the article this hexagon leads to</p>
               </div>
