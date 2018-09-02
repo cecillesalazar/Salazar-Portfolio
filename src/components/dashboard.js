@@ -3,8 +3,6 @@ import '../components-css/dashboard.css';
 import Floats from './floats';
 import Sidebar from './sidebar';
 import SocialMedia from './socialmedia';
-import Stats from './stats';
-import Projects from './projects';
 import TypeWriter from 'react-typewriter'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 
@@ -18,7 +16,6 @@ export default class Dashboard extends React.Component {
       return (
         <Router>
           <div className="dashboard">
-            <Route exact path="/projects" component={Projects} />
               <Sidebar />
             <SocialMedia />
             <div className="tagline-container">
