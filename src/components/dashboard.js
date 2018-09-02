@@ -16,34 +16,31 @@ export default class Dashboard extends React.Component {
 
   render() {
       return (
-        <div className="dashboard">
-          <Sidebar />
-          <SocialMedia />
-          <div className="tagline-container">
-            <h1 className="tagline">
-              <TypeWriter typing={1}>
-              Full Stack Developer
-              <br/>Designer Newbie
-              <br/>Shiba Inu Mom :)
-              </TypeWriter>
-            </h1>
-          </div>
-          <Router>
-            <div className="button-container">
+        <Router>
+          <div className="dashboard">
+            <Route exact path="/projects" component={Projects} />
+              <Sidebar />
+            <SocialMedia />
+            <div className="tagline-container">
+              <h1 className="tagline">
+                <TypeWriter typing={1}>
+                Full Stack Developer
+                <br/>Designer Newbie
+                <br/>Shiba Inu Mom :)
+                </TypeWriter>
+              </h1>
               <Route exact path="/about" component={Floats} />
-              <Route exact path="/stats" component={Stats} />
-              <Route exact path="/projects" component={Projects} />
-
-              <a className="down-button" href="#">
-                <Link to="/about">
-                  <span className="bottom"></span>
-                </Link>
-              </a>
-
             </div>
+              <div className="button-container">
+                <a className="down-button" href="#">
+                  <Link to="/about">
+                    <span className="bottom"></span>
+                  </Link>
+                </a>
 
-          </Router>
-        </div>
+              </div>
+          </div>
+        </Router>
       )
     }
 }
