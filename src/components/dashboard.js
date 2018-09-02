@@ -16,7 +16,7 @@ export default class Dashboard extends React.Component {
       return (
         <Router>
           <div className="dashboard">
-              <Sidebar />
+            <Sidebar />
             <SocialMedia />
             <div className="tagline-container">
               <h1 className="tagline">
