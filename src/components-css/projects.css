@@ -25,17 +25,17 @@
 }
 
 .border {
-  display: inline-block;
+  /* display: inline-block;
   position: absolute;
-  left: 24%;
+  left: 24%; */
 }
 
 .labels {
-  margin-left: 0px;
+  /* margin-left: 0px;
   display: inline-block;
   position: absolute;
   left: 17.5%;
-  font-size: 22px;
+  font-size: 22px; */
 }
 
 h1 {

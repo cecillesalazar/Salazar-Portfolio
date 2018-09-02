@@ -17,8 +17,18 @@ export default class Projects extends React.Component {
           </div>
           <br/>
           <br/>
-          <div className="historia-stats-container"></div>
-          <div className="miko-adventures-stats-container"></div>
+          <div className="historia-stats-container">
+            <p className="labels">HTML5</p>
+            <div className="border" style={{ border: "2px solid black", width: "300px" }}>
+              <div className="bar" style={{ height: "24px", width: "20%", backgroundColor: "gray" }}></div>
+            </div>
+          </div>
+          <div className="miko-adventures-stats-container">
+            <p className="labels">HTML5</p>
+            <div className="border" style={{ border: "2px solid black", width: "300px" }}>
+              <div className="bar" style={{ height: "24px", width: "20%", backgroundColor: "gray" }}></div>
+            </div>
+          </div>
           <a className="down-button-3" href="#">
             <Link to="/contact">
               <span className="bottom"></span>
