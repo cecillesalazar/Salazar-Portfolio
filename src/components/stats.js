@@ -48,7 +48,7 @@ export default class Stats extends React.Component {
             <li class="pusher"></li>
             <li>
                 <div className="mongo-logo">
-                  <img src="https://s25.postimg.cc/x4g586hin/Screen_Shot_2018-09-01_at_1.43.59_PM.png" alt=""/>
+                  <img src="https://s25.postimg.cc/4g7sj09yn/Screen_Shot_2018-09-01_at_9.50.17_PM.png" alt=""/>
                   <h1>This is a title</h1>
                   <p>Some sample text about the article this hexagon leads to</p>
               </div>
