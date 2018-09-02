@@ -19,7 +19,7 @@ export default class Stats extends React.Component {
             <li class="pusher"></li>
           	<li>
                 <div className="node-logo">
-                  <img src="https://s25.postimg.cc/5skw74uv3/Node_Logo.jpg" alt=""/>
+                  <img src="https://s25.postimg.cc/4sz6p6533/Screen_Shot_2018-09-01_at_9.43.18_PM.png" alt=""/>
                   <h1>This is a title a bit longer</h1>
                   <p>Some sample text about the article this hexagon leads to</p>
               </div>
