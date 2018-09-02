@@ -35,7 +35,9 @@ export default class Dashboard extends React.Component {
               <Route exact path="/projects" component={Projects} />
 
               <a className="down-button" href="#">
+                <Link to="/about">
                   <span className="bottom"></span>
+                </Link>
               </a>
 
             </div>
