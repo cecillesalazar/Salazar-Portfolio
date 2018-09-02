@@ -28,6 +28,19 @@ export default class Dashboard extends React.Component {
               </TypeWriter>
             </h1>
           </div>
+          <Router>
+            <div className="button-container">
+              <Route exact path="/about" component={Floats} />
+              <Route exact path="/stats" component={Stats} />
+              <Route exact path="/projects" component={Projects} />
+
+              <a className="down-button" href="#">
+                  <span className="bottom"></span>
+              </a>
+
+            </div>
+
+          </Router>
         </div>
       )
     }
