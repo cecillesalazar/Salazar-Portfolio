@@ -2,13 +2,14 @@ import React from 'react';
 import '../components-css/projects.css';
 import Contact from './contact';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import TypeWriter from 'react-typewriter';
 
 export default class Projects extends React.Component {
   render() {
     return (
       <Router>
         <div className="">
-          <h1>{'What I\'m working on...'}</h1>
+          <h1><TypeWriter typing={1}>{'Projects I\'m working on...'}</TypeWriter></h1>
           <div className="Historia">
             <p className="historia-text">Historia<br/><br/>A full stack create-your-own-<br/>adventure visual novel app</p>
           </div>

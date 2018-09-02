@@ -2,6 +2,7 @@ import React from 'react';
 import '../components-css/stats.css';
 import Projects from './projects';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import TypeWriter from 'react-typewriter';
 
 export default class Stats extends React.Component {
   render() {
@@ -12,7 +13,7 @@ export default class Stats extends React.Component {
           <link href='https://fonts.googleapis.com/css?family=Raleway:400,700,300,200,100,900' rel='stylesheet' type='text/css' />
           <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css' />
 
-          <h1>What I like to work with...</h1>
+          <h1><TypeWriter typing={1}>The toolkit so far...</TypeWriter></h1>
           <br/>
 
           <ul id="categories" class="clr">

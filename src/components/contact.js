@@ -1,11 +1,12 @@
 import React from 'react';
 import '../components-css/contact.css';
+import TypeWriter from 'react-typewriter';
 
 export default class Contact extends React.Component {
   render() {
     return (
       <div>
-      <h1>Interested in collaborating?</h1>
+      <h1><TypeWriter typing={1}>Interested in collaborating?</TypeWriter></h1>
         <h2 className="contact-header">{'Let\'s grab coffee (on me)!'}</h2>
         <ul>
           <li className="contact-li">Slack: cecillesalazar</li>
