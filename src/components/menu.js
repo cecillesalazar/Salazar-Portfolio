@@ -3,7 +3,6 @@ import '../components-css/menu.css';
 import '../components-css/menu.scss';
 import { showDashboard } from '../actions';
 import { connect } from 'react-redux';
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import Dashboard from './dashboard';
 import TypeWriter from 'react-typewriter';
 
