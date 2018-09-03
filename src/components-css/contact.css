@@ -40,8 +40,16 @@
       text-shadow: 0px 0px 10px #faa622;
     }
 
+    .contact-header {
+      font-size: 20px;
+    }
+
+    .contact-li {
+      font-size: 20px;
+    }
+
     .closing-quote {
-      font-size: 15px;
+      font-size: 20px;
       text-shadow: 0px 0px 10px #faa622;
     }
 }
