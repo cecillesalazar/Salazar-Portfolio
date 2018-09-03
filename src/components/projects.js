@@ -52,6 +52,9 @@ export default class Projects extends React.Component {
               <div className="bar" style={{ height: "24px", width: "20%", backgroundColor: "#c4d70c" }}>20%</div>
             </div>
           </div>
+          <br/>
+          <br/>
+          <br/>
 
           <a className="down-button-4" href="#">
             <Link to="/contact">
