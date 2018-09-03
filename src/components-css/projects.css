@@ -117,6 +117,27 @@
   opacity: .5;
 }
 
+@media only screen and (min-width: 1500px) {
+  .Historia {
+    left: 20%;
+  }
+
+  .historia-stats-container {
+    left: 25%;
+    margin-right: 30%;
+  }
+
+  .Miko-Adventures {
+    left: 5%;
+  }
+
+  .miko-adventures-stats-container {
+    left: 10%;
+  }
+
+
+}
+
 @media only screen and (max-width: 900px) {
     .projects-header {
       font-size: 55px;

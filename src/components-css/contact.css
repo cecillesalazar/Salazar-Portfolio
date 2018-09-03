@@ -20,6 +20,13 @@
   right: 20%;
 }
 
+@media only screen and (min-width: 1500px) {
+  .contact-header {
+    margin-left: 30%;
+  }
+
+}
+
 @media only screen and (max-width: 900px) {
     .main-contact-header {
       font-size: 55px;
