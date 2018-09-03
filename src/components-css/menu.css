@@ -12,6 +12,16 @@ body {
   text-align: center;
 }
 
+@media only screen and (min-width: 1500px) {
+  h1 {
+    padding-top: 230px;
+  }
+
+  .flex {
+    margin-top: 10%;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   h1 {
     font-size: 40px;
