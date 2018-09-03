@@ -9,6 +9,7 @@ export default class Contact extends React.Component {
       <TypeWriter typing={1}>
         <h1>Interested in collaborating?</h1>
           <h2 className="contact-header">{'Let\'s grab coffee (on me)!'}</h2>
+          <br/>
           <ul>
             <li className="contact-li">Slack: cecillesalazar</li>
             <li className="contact-li">Email: cecillersalazar@gmail.com</li>
