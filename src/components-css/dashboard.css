@@ -87,7 +87,7 @@ body {
   position: absolute;
   height: 250px;
   width: 100%;
-  top: 55%;
+  top: 42%;
 }
 
 .down-button {
@@ -115,7 +115,7 @@ body {
   }
 
   .button-container {
-    top: 30%;
+    top: 37%;
   }
 
   .floating-one {
@@ -161,7 +161,7 @@ body {
   .button-container {
     height: 150px;
     width: 100%;
-    top: 27%;
+    top: 32%;
   }
 
   .floating-one {
@@ -190,7 +190,7 @@ body {
   .tagline {
     position: relative;
     font-size: 30px;
-    padding-top: 100px;
+    padding-top: 120px;
   }
 
   .down-button {
@@ -207,7 +207,7 @@ body {
   .button-container {
     height: 150px;
     width: 100%;
-    top: 23%;
+    top: 30%;
   }
 
   .floating-one {
@@ -239,7 +239,7 @@ body {
   .tagline {
     position: relative;
     font-size: 27px;
-    padding-top: 100px;
+    padding-top: 120px;
   }
 
   .down-button {
@@ -256,7 +256,7 @@ body {
   .button-container {
     height: 100px;
     width: 100%;
-    top: 22%;
+    top: 29%;
   }
 
   .floating-one {

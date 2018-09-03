@@ -13,7 +13,7 @@
   display: inline-block;
   left: 0%;
   height: 300px;
-  width: 500px;
+  width: 700px;
   margin-right: 0%;
 }
 
@@ -22,7 +22,7 @@
   display: inline-block;
   left: 0%;
   height: 300px;
-  width: 500px;
+  width: 700px;
 }
 
 .border {
@@ -124,19 +124,19 @@
     }
 
     .border {
-      left: 26%;
+      left: 33%;
     }
 
     .labels {
-      left: 9%;
+      left: 20%;
     }
 
     .Historia {
-      left: 5%;
+      left: 0%;
     }
 
     .Miko-Adventures {
-      left: 5%;
+      left: 0%;
     }
 
     .miko-adventures-stats-container {
@@ -159,11 +159,11 @@
     }
 
     .border {
-      left: 26%;
+      left: 33%;
     }
 
     .labels {
-      left: 9%;
+      left: 20%;
     }
 
     .Historia {
@@ -197,6 +197,14 @@
     .labels {
       left: 9%;
       font-size: 15px;
+    }
+
+    .Historia {
+      left: 7%;
+    }
+
+    .Miko-Adventures {
+      left: 7%;
     }
 
     .miko-adventures-stats-container {
