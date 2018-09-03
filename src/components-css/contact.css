@@ -97,13 +97,13 @@
     }
 
     .closing-quote {
-      font-size: 13px;
+      font-size: 12px;
       margin-right: 5%;
       margin-left: 5%;
       text-shadow: 0px 0px 10px #faa622;
     }
 
     .quote-author {
-      font-size: 13px;
+      font-size: 11px;
     }
 }
