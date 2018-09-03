@@ -131,12 +131,24 @@
       left: 9%;
     }
 
+    .Historia {
+      left: 5%;
+    }
+
+    .Miko-Adventures {
+      left: 5%;
+    }
+
     .miko-adventures-stats-container {
       height: 275px;
     }
 
     .historia-stats-container {
       height: 275px;
+    }
+
+    .down-button-4 {
+      margin-top: 40px;
     }
 }
 

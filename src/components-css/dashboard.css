@@ -114,6 +114,10 @@ body {
     padding-top: 120px;
   }
 
+  .button-container {
+    top: 30%;
+  }
+
   .floating-one {
     height: 200px;
     width: 200px;
