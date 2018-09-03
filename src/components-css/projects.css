@@ -12,29 +12,31 @@
   position: relative;
   display: inline-block;
   left: 0%;
-  height: 275px;
-  width: 400px;
-  margin-right: 3%;
+  height: 300px;
+  width: 500px;
+  margin-right: 0%;
 }
 
 .miko-adventures-stats-container {
   position: relative;
   display: inline-block;
   left: 0%;
-  height: 275px;
-  width: 400px;
+  height: 300px;
+  width: 500px;
 }
 
 .border {
   position: absolute;
   display: inline-block;
+  margin-top: 5%;
   left: 19%;
 }
 
 .labels {
   font-size:20px;
   display: inline-block;
-  margin-left: 2%;
+  margin-top: 5%;
+  margin-left: 3%;
   display: inline-block;
   position: absolute;
   left: 0;
@@ -106,7 +108,7 @@ h1 {
 .Miko-Adventures {
   position: relative;
   margin-top: 5%;
-  margin-left: 3%;
+  margin-left: 0%;
   display: inline-block;
   height: 300px;
   width: 400px;
