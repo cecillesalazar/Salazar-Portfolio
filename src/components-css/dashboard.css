@@ -155,7 +155,6 @@ body {
   }
 
   .button-container {
-
     height: 150px;
     width: 100%;
     top: 40%;
@@ -174,5 +173,55 @@ body {
   .floating-three {
     height: 195px;
     width: 195px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .tagline-container {
+    position: relative;
+    width: 100%;
+    height: 100px;
+  }
+
+  .tagline {
+    position: relative;
+    font-size: 30px;
+    padding-top: 100px;
+  }
+
+  .down-button {
+    position: relative;
+    top: 0%;
+  }
+
+  .floats-container {
+    height: 150px;
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .button-container {
+
+    height: 150px;
+    width: 100%;
+    top: 40%;
+  }
+
+  .floating-one {
+    height: 130px;
+    width: 130px;
+    border: 7px solid #7fe6ef;
+  }
+
+  .floating-two {
+    height: 70px;
+    width: 70px;
+    border: 7px solid #FAA622;
+  }
+
+  .floating-three {
+    height: 120px;
+    width: 120px;
+    border: 7px solid #c4d70c;
   }
 }
