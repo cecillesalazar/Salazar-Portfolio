@@ -5,10 +5,10 @@ import '../components-css/socialmedia.scss';
 export default class SocialMedia extends React.Component {
   render() {
     return (
-      <div class="wrapper">
-        <i class="fa fa-5x fa-twitter-square"></i>
-        <i class="fa fa-5x fa-github-square"></i>
-        <i class="fa fa-5x fa-linkedin-square"></i>
+      <div className="rounded-social-buttons">
+        <a className="social-button linkedin" href="https://www.linkedin.com/in/cecille-salazar/"></a>
+        <a className="social-button github" href="https://github.com/cecillesalazar"></a>
+        <a className="social-button twitter" href="https://twitter.com/kcmadventures"></a>
       </div>
     )
   }

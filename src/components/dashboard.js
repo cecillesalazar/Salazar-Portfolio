@@ -16,7 +16,6 @@ export default class Dashboard extends React.Component {
         <Router>
           <div className="dashboard">
             <Sidebar />
-            <SocialMedia />
             <div className="tagline-container">
               <h1 className="tagline">
                 <TypeWriter typing={1}>
@@ -35,6 +34,7 @@ export default class Dashboard extends React.Component {
                 </a>
 
               </div>
+              <SocialMedia />
           </div>
         </Router>
       )
