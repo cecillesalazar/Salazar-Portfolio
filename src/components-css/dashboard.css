@@ -11,8 +11,8 @@ body {
 
 .tagline {
   position: relative;
-  font-size: 70px;
-  padding-top: 150px;
+  font-size: 65px;
+  padding-top: 160px;
 }
 
 .floats-container {
@@ -93,6 +93,7 @@ body {
 
 .down-button {
   position: relative;
+  top: 12%;
 }
 
 .down-button-2 {
