@@ -5,9 +5,9 @@ import TypeWriter from 'react-typewriter';
 export default class Contact extends React.Component {
   render() {
     return (
-      <div>
+      <div className="contact-container">
       <TypeWriter typing={1}>
-        <h1>Interested in collaborating?</h1>
+        <h1 className="main-contact-header">Interested in collaborating?</h1>
           <h2 className="contact-header">{'Let\'s grab coffee (on me)!'}</h2>
           <br/>
           <ul>

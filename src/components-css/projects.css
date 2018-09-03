@@ -42,12 +42,6 @@
   left: 0;
 }
 
-h1 {
-  position: relative;
-  font-size: 55px;
-  text-shadow: 0px 0px 10px #faa622;
-}
-
 .Historia {
   position: relative;
   margin-top: 5%;
@@ -124,6 +118,34 @@ h1 {
 }
 
 @media only screen and (max-width: 900px) {
+    .projects-header {
+      font-size: 55px;
+      text-shadow: 0px 0px 10px #faa622;
+    }
+
+    .border {
+      left: 26%;
+    }
+
+    .labels {
+      left: 9%;
+    }
+
+    .miko-adventures-stats-container {
+      height: 275px;
+    }
+
+    .historia-stats-container {
+      height: 275px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .projects-header {
+      font-size: 40px;
+      text-shadow: 0px 0px 10px #faa622;
+    }
+
     .border {
       left: 26%;
     }

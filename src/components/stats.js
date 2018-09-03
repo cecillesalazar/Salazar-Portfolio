@@ -13,7 +13,7 @@ export default class Stats extends React.Component {
           <link href='https://fonts.googleapis.com/css?family=Raleway:400,700,300,200,100,900' rel='stylesheet' type='text/css' />
           <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css' />
 
-          <h1><TypeWriter typing={1}>Tools I like to work with...</TypeWriter></h1>
+          <h1 className="stats-header"><TypeWriter typing={1}>Tools I like to work with...</TypeWriter></h1>
           <br/>
 
           <ul id="categories" class="clr">

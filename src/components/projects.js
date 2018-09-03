@@ -9,7 +9,7 @@ export default class Projects extends React.Component {
     return (
       <Router>
         <div className="">
-          <h1><TypeWriter typing={1}>{'Projects I\'m working on...'}</TypeWriter></h1>
+          <h1 className="projects-header"><TypeWriter typing={1}>{'Projects I\'m working on...'}</TypeWriter></h1>
           <div className="Historia">
             <p className="historia-text">Historia<br/><br/>A full stack create-your-own-<br/>adventure visual novel app</p>
           </div>
