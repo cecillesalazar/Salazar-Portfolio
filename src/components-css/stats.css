@@ -149,30 +149,128 @@
   transform: translateX(0) skewX(-45deg);
 }
 
-/* @media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1100px) {
   .stats-header {
     font-size: 55px;
-    text-shadow: 0px 0px 10px #faa622;
+  }
+
+  #categories div h1 {
+    font-size: 25px;
+  }
+
+  #categories div p {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .stats-header {
+    font-size: 50px;
+  }
+
+  #categories div h1 {
+    font-size: 20px;
+  }
+
+  #categories div p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .stats-header {
+    font-size: 45px;
+  }
+
+  #categories div h1 {
+    font-size: 15px;
+  }
+
+  #categories div p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .stats-header {
+    font-size: 40px;
+  }
+
+  #categories div h1 {
+    font-size: 13px;
+  }
+
+  #categories div p {
+    font-size: 13px;
   }
 }
 
 @media only screen and (max-width: 700px) {
   .stats-header {
-    font-size: 40px;
-    text-shadow: 0px 0px 10px #faa622;
+    font-size: 35px;
+  }
+
+  #categories div h1 {
+    font-size: 12px;
+  }
+
+  #categories div p {
+    font-size: 12px;
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 650px) {
   .stats-header {
     font-size: 30px;
-    text-shadow: 0px 0px 10px #faa622;
+  }
+
+  #categories div h1 {
+    font-size: 12px;
+  }
+
+  #categories div p {
+    font-size: 12px;
   }
 }
 
-@media only screen and (max-width: 452px) {
+@media only screen and (max-width: 550px) {
+  .stats-header {
+    font-size: 27px;
+  }
+
+  #categories div h1 {
+    font-size: 12px;
+  }
+
+  #categories div p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
   .stats-header {
     font-size: 25px;
-    text-shadow: 0px 0px 10px #faa622;
   }
-} */
+
+  #categories div h1 {
+    font-size: 11px;
+  }
+
+  #categories div p {
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .stats-header {
+    font-size: 20px;
+  }
+
+  #categories div h1 {
+    font-size: 10px;
+  }
+
+  #categories div p {
+    font-size: 10px;
+  }
+}

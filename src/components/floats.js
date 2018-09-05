@@ -1,5 +1,5 @@
 import React from 'react';
-import '../components-css/dashboard.css';
+import '../components-css/floats.css';
 import Stats from './stats';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 

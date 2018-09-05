@@ -1,5 +1,5 @@
 .contact-container {
-
+  padding-top: 400px;
 }
 
 .contact-header {
@@ -14,29 +14,16 @@
   list-style: none;
 }
 
-.closing-quote {
-  text-shadow: 0px 0px 10px #faa622;
-  margin-right: 7%;
-  margin-left: 7%;
-}
-
-.quote-author {
-  position: absolute;
-  margin-top: 1%;
-  right: 20%;
-}
-
 /* @media only screen and (min-width: 1500px) {
   .contact-header {
     margin-left: 30%;
   }
 
-}
+} */
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1300px) {
     .main-contact-header {
       font-size: 55px;
-      text-shadow: 0px 0px 10px #faa622;
     }
 
     .closing-quote {
@@ -44,79 +31,91 @@
       margin-right: 5%;
       margin-left: 5%;
       text-shadow: 0px 0px 10px #faa622;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .main-contact-header {
+      font-size: 47px;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .main-contact-header {
+      font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .main-contact-header {
+      font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .main-contact-header {
+      font-size: 30px;
+      margin-left: 0%;
+    }
+
+    .contact-header {
+      font-size: 20px;
+      margin-left: 30%;
+    }
+
+    .contact-li {
+      font-size: 18px;
+      margin-left: 30%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .main-contact-header {
+      font-size: 30px;
+      margin-left: 0%;
+    }
+
+    .contact-header {
+      font-size: 20px;
+      margin-left: 25%;
+    }
+
+    .contact-li {
+      font-size: 18px;
+      margin-left: 25%;
     }
 }
 
 @media only screen and (max-width: 700px) {
     .main-contact-header {
-      font-size: 40px;
-      text-shadow: 0px 0px 10px #faa622;
-    }
-
-    .contact-header {
-      font-size: 20px;
-    }
-
-    .contact-li {
-      font-size: 20px;
-    }
-
-    .closing-quote {
-      font-size: 20px;
-      margin-right: 7%;
-      margin-left: 7%;
-      text-shadow: 0px 0px 10px #faa622;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .main-contact-header {
-      font-size: 30px;
-      text-shadow: 0px 0px 10px #faa622;
-    }
-
-    .contact-header {
-      font-size: 15px;
-    }
-
-    .contact-li {
-      font-size: 15px;
-    }
-
-    .closing-quote {
-      font-size: 15px;
-      margin-right: 10%;
-      margin-left: 10%;
-      text-shadow: 0px 0px 10px #faa622;
-    }
-
-    .quote-author {
-      font-size: 13px;
-    }
-}
-
-@media only screen and (max-width: 452px) {
-    .main-contact-header {
       font-size: 25px;
-      text-shadow: 0px 0px 10px #faa622;
+      margin-left: 0%;
     }
 
     .contact-header {
-      font-size: 13px;
+      font-size: 18px;
+      margin-left: 25%;
     }
 
     .contact-li {
-      font-size: 13px;
+      font-size: 16px;
+      margin-left: 25%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .main-contact-header {
+      font-size: 20px;
+      margin-left: 0%;
     }
 
-    .closing-quote {
-      font-size: 12px;
-      margin-right: 5%;
-      margin-left: 5%;
-      text-shadow: 0px 0px 10px #faa622;
+    .contact-header {
+      font-size: 15px;
+      margin-left: 25%;
     }
 
-    .quote-author {
-      font-size: 11px;
+    .contact-li {
+      font-size: 14px;
+      margin-left: 25%;
     }
-} */
+}

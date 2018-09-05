@@ -22,12 +22,6 @@ export default class Contact extends React.Component {
             <br/>
             <br/>
             <br/>
-            <h2 className="closing-quote">"Work and play are words used to describe the same thing under differing conditions."</h2>
-            <h4 className="quote-author">Mark Twain</h4>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
           </TypeWriter>
       </div>
     )
