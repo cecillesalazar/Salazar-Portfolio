@@ -26,7 +26,7 @@ export default class Stats extends React.Component {
             <li>
               <div className="express-logo">
                 <img src="https://s25.postimg.cc/yxnnajplr/Screen_Shot_2018-09-01_at_9.46.16_PM.png" alt=""/>
-                <h1>Node Express</h1>
+                <h1>Express</h1>
                 <p>Proficiency Level: Advanced</p>
             </div>
           </li>
