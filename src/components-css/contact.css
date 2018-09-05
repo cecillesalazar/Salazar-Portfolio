@@ -14,12 +14,12 @@
   list-style: none;
 }
 
-/* @media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1500px) {
   .contact-header {
     margin-left: 30%;
   }
 
-} */
+}
 
 @media only screen and (max-width: 1300px) {
     .main-contact-header {

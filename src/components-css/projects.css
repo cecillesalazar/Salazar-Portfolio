@@ -118,7 +118,7 @@
   opacity: .5;
 }
 
-/* /@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1500px) {
   .Historia {
     left: 20%;
   }
@@ -135,7 +135,7 @@
   .miko-adventures-stats-container {
     left: 10%;
   }
-} */
+}
 
  @media only screen and (max-width: 1300px) {
     .projects-header {
