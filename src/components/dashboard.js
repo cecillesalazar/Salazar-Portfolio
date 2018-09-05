@@ -1,6 +1,9 @@
 import React from 'react';
 import '../components-css/dashboard.css';
 import Floats from './floats';
+import Stats from './stats';
+import Projects from './projects';
+import Contact from './contact';
 import Sidebar from './sidebar';
 import SocialMedia from './socialmedia';
 import TypeWriter from 'react-typewriter';
@@ -13,30 +16,23 @@ export default class Dashboard extends React.Component {
 
   render() {
       return (
-        <Router>
-          <div className="dashboard">
-            <Sidebar />
-            <div className="tagline-container">
-              <h1 className="tagline">
-                <TypeWriter typing={1}>
-                Full Stack Developer
-                <br/>Design Enthusiast
-                <br/>Proud Shiba mom :)
-                </TypeWriter>
-              </h1>
-              <Route exact path="/about" component={Floats} />
-            </div>
-              <div className="button-container">
-                <a className="down-button" href="#">
-                  <Link to="/about">
-                    <span className="bottom"></span>
-                  </Link>
-                </a>
-
-              </div>
-              <SocialMedia />
+        <div className="dashboard">
+          <Sidebar />
+          <div className="tagline-container">
+            <h1 className="tagline">
+              <TypeWriter typing={1}>
+              Full Stack Developer
+              <br/>Design Enthusiast
+              <br/>Proud Shiba mom :)
+              </TypeWriter>
+            </h1>
           </div>
-        </Router>
+          <Floats />
+          <Stats />
+          <Projects />
+          <Contact />
+          <SocialMedia />
+        </div>
       )
     }
 }
