@@ -1,0 +1,162 @@
+.floats-container {
+  height: 100vh;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.floating-one {
+  height: 260px;
+  width: 260px;
+  background-image: url('https://s25.postimg.cc/5c7y9cg9b/imageedit_1_3890977509.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 10px solid #7fe6ef;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+}
+
+.floating-two {
+  height: 200px;
+  width: 200px;
+  background-image: url('https://s25.postimg.cc/wzknnhyvz/designstockpic.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 10px solid #FAA622;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+  border-radius: 50%;
+  position: relative;
+  top: 15%;
+
+  display: inline-block;
+}
+
+.floating-three {
+  height: 310px;
+  width: 310px;
+  background-image: url('https://s25.postimg.cc/vkj2yjd5r/mikomajesticcrop.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 10px solid #c4d70c;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }
+}
+
+@media only screen and (max-width: 950px) {
+  .floating-one {
+    height: 210px;
+    width: 210px;
+  }
+
+  .floating-two {
+    height: 150px;
+    width: 150px;
+  }
+
+  .floating-three {
+    height: 260px;
+    width: 260px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .floating-one {
+    height: 160px;
+    width: 160px;
+  }
+
+  .floating-two {
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+  }
+
+  .floating-three {
+    height: 210px;
+    width: 210px;
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .floating-one {
+    height: 150px;
+    width: 150px;
+  }
+
+  .floating-two {
+    height: 80px;
+    width: 80px;
+    margin-left: 5px;
+  }
+
+  .floating-three {
+    height: 170px;
+    width: 170px;
+    margin-left: 5px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .floating-one {
+    height: 120px;
+    width: 120px;
+    margin-left: 1px;
+  }
+
+  .floating-two {
+    height: 100px;
+    width: 100px;
+    margin-left: .5px;
+  }
+
+  .floating-three {
+    height: 120px;
+    width: 120px;
+    margin-left: .5px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .floating-one {
+    height: 110px;
+    width: 110px;
+    margin-left: 1px;
+  }
+
+  .floating-two {
+    height: 90px;
+    width: 90px;
+    margin-left: .5px;
+  }
+
+  .floating-three {
+    height: 110px;
+    width: 110px;
+    margin-left: .5px;
+  }
+}
