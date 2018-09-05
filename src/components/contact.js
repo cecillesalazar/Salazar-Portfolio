@@ -11,7 +11,7 @@ export default class Contact extends React.Component {
             <h2 className="contact-header">{'Let\'s grab coffee (on me)!'}</h2>
             <br/>
             <ul>
-              <li className="contact-li">Slack: cecillesalazar</li>
+              <li className="contact-li">Github: cecillesalazar</li>
               <li className="contact-li">Email: cecillersalazar@gmail.com</li>
             </ul>
             <br/>
