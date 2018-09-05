@@ -1,12 +1,10 @@
 import React from 'react';
 import '../components-css/contact.css';
-import TypeWriter from 'react-typewriter';
 
 export default class Contact extends React.Component {
   render() {
     return (
       <div className="contact-container">
-        <TypeWriter typing={1}>
           <h1 className="main-contact-header">Interested in collaborating?</h1>
             <h2 className="contact-header">{'Let\'s grab coffee (on me)!'}</h2>
             <br/>
@@ -22,7 +20,6 @@ export default class Contact extends React.Component {
             <br/>
             <br/>
             <br/>
-          </TypeWriter>
       </div>
     )
   }
