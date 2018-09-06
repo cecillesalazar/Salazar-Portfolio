@@ -1,6 +1,5 @@
-.down-button-4 {
-  position: relative;
-  display: block;
+#projects-header {
+  font-size: 65px;
 }
 
 .projects-container {
@@ -9,16 +8,16 @@
 
 .historia-stats-container {
   display: block;
-  margin-top: 5%;
+  margin-top: 3%;
   width: 100%;
-  margin-right: auto;
-  margin-left: auto;
+  margin-left: 39%;
 }
 
 .miko-adventures-stats-container {
   display: block;
-  display: block;
-  width: 100%
+  margin-top: 3%;
+  width: 100%;
+  margin-left: 39%;
 }
 
 .border {
@@ -141,33 +140,67 @@
 }
 
  @media only screen and (max-width: 1300px) {
-    .projects-header {
-      font-size: 45px;
-    }
 
     .border {
       left: 15%;
+    }
+
+    .historia-stats-container {
+      margin-left: 38%;
+    }
+
+    .miko-adventures-stats-container {
+      margin-left: 38%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .projects-header {
+      font-size: 55px;
     }
 }
 
 @media only screen and (max-width: 950px) {
     .projects-header {
-      font-size: 40px;
+      font-size: 50px;
     }
 
     .border {
       left: 14%;
     }
+
+    .historia-stats-container {
+      margin-left: 36%;
+    }
+
+    .miko-adventures-stats-container {
+      margin-left: 36%;
+    }
 }
 
 @media only screen and (max-width: 900px) {
     .projects-header {
-      font-size: 37.5px;
+      font-size: 47.5px;
+    }
+
+    .historia-stats-container {
+      margin-left: 34%;
+    }
+
+    .miko-adventures-stats-container {
+      margin-left: 34%;
     }
 }
+
+@media only screen and (max-width: 850px) {
+  .projects-header {
+    font-size: 45px;
+  }
+}
+
 @media only screen and (max-width: 800px) {
     .projects-header {
-      font-size: 35px;
+      font-size: 42.5px;
     }
 
     .Historia {
@@ -177,11 +210,19 @@
     .Miko-Adventures {
       margin-left: 0%;
     }
+
+    .historia-stats-container {
+      margin-left: 32%;
+    }
+
+    .miko-adventures-stats-container {
+      margin-left: 32%;
+    }
 }
 
 @media only screen and (max-width: 750px) {
     .projects-header {
-      font-size: 30px;
+      font-size: 40px;
     }
 
     .labels {
@@ -199,11 +240,30 @@
     .Miko-Adventures {
       margin-left: 0%;
     }
+
+    .historia-stats-container {
+      margin-left: 30%;
+    }
+
+    .miko-adventures-stats-container {
+      margin-left: 30%;
+    }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
+    .projects-header {
+      font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
     .projects-header {
       font-size: 30px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .projects-header {
+      font-size: 28px;
     }
 
     .labels {
@@ -221,33 +281,25 @@
     .Miko-Adventures {
       margin-left: 0%;
     }
+
+    .historia-stats-container {
+      margin-left: 25%;
+    }
+
+    .miko-adventures-stats-container {
+      margin-left: 25%;
+    }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 550px) {
     .projects-header {
-      font-size: 30px;
-    }
-
-    .labels {
-      font-size: 16px;
-    }
-
-    .border {
-      left: 12%;
-    }
-
-    .Historia {
-      margin-left: 0%;
-    }
-
-    .Miko-Adventures {
-      margin-left: 0%;
+      font-size: 27px;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .projects-header {
-      font-size: 30px;
+      font-size: 25.5px;
     }
 
     .labels {
@@ -265,11 +317,19 @@
     .Miko-Adventures {
       margin-left: 0%;
     }
+
+    .historia-stats-container {
+      margin-left: 22%;
+    }
+
+    .miko-adventures-stats-container {
+      margin-left: 22%;
+    }
 }
 
 @media only screen and (max-width: 450px) {
     .projects-header {
-      font-size: 30px;
+      font-size: 20px;
     }
 
     .labels {
@@ -287,5 +347,13 @@
 
     .Miko-Adventures {
       margin-left: 2%;
+    }
+
+    .historia-stats-container {
+      margin-left: 18%;
+    }
+
+    .miko-adventures-stats-container {
+      margin-left: 18%;
     }
 }

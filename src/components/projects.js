@@ -6,7 +6,7 @@ export default class Projects extends React.Component {
   render() {
     return (
       <div className="">
-          <h1 className="projects-header">{'Projects I\'m working on...'}</h1>
+          <h1 className="projects-header">My Current Projects</h1>
           <div className="Historia">
             <p className="historia-text">Historia<br/><br/>A full stack create-your-own-<br/>adventure visual novel app</p>
           </div>
