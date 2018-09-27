@@ -8,7 +8,9 @@ export default class Projects extends React.Component {
       <div className="">
           <h1 className="projects-header">My Current Projects</h1>
           <div className="Historia">
-            <p className="historia-text">Historia<br/><br/>A full stack create-your-own-<br/>adventure visual novel app</p>
+            <a href="https://stark-caverns-30288.herokuapp.com/">
+              <p className="historia-text">Historia<br/><br/>A full stack create-your-own-<br/>adventure visual novel app</p>
+            </a>
           </div>
           <div className="historia-stats-container">
             <p className="labels">HTML5</p>
@@ -81,7 +83,9 @@ export default class Projects extends React.Component {
           </div>
 
           <div className="Atlas">
-            <p className="atlas-text">Atlas<br/><br/> A geography learning app based on<br/>a spaced repetition algorithm</p>
+            <a href="https://countries-client.herokuapp.com/">
+              <p className="atlas-text">Atlas<br/><br/> A geography learning app based on<br/>a spaced repetition algorithm</p>
+            </a>
           </div>
           <div className="atlas-stats-container">
             <p className="labels" style={{ top: "12%" }}>HTML5</p>
