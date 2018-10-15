@@ -11,7 +11,7 @@ export default class Projects extends React.Component {
           <div className="col-holder">
             <div className="first-col">
               <div className="Historia">
-                  <p className="historia-text"><a className="historia-link" href="https://stark-caverns-30288.herokuapp.com/">Historia<br/><br/>A full stack create-your-own-<br/>adventure visual novel app</a></p>
+                  <p className="historia-text">Historia<br/><br/>A full stack create-your-own-<br/>adventure visual novel app<br/><br/><a className="historia-link" href="https://stark-caverns-30288.herokuapp.com/">Click here to see it Live!</a><br/><br/><a className="historia-link" href="https://github.com/cecillesalazar/Historia">Click here to see it on Github!</a></p>
               </div>
 
               <div className="historia-stats-container">
@@ -44,7 +44,7 @@ export default class Projects extends React.Component {
 
             <div className="second-col">
               <div className="Atlas">
-                  <p className="atlas-text"><a className="atlas-link" href="https://countries-client.herokuapp.com/">Atlas<br/><br/> A geography learning app based on<br/>a spaced repetition algorithm</a></p>
+                  <p className="atlas-text">Atlas<br/><br/> A geography learning app based on<br/>a spaced repetition algorithm<br/><br/><a className="atlas-link" href="https://countries-client.herokuapp.com/">Click here to see it Live!</a><br/><br/><a className="atlas-link" href="https://github.com/cecillesalazar/Atlas">Click here to see it on Github!</a></p>
               </div>
 
               <div className="atlas-stats-container">
@@ -77,7 +77,7 @@ export default class Projects extends React.Component {
 
             <div className="third-col">
               <div className="Guidepost">
-                <p className="guidepost-text">Guidepost<br/><br/>A daily advice generator for<br/>self help geeks</p>
+                <p className="guidepost-text">Guidepost<br/><br/>A daily advice generator for<br/>self help geeks<br/><br/><a className="historia-link" href="https://github.com/cecillesalazar/Guidepost">Click here to see it on Github!</a></p>
               </div>
 
               <div className="guidepost-stats-container">
@@ -112,7 +112,7 @@ export default class Projects extends React.Component {
             <div className="col-holder2">
               <div className="fourth-col">
                 <div className="Miko-Adventures">
-                  <p className="miko-adventures-text">{'Miko\'s Adventure'}<br/><br/> A pixel art game of<br/>my Shiba inu’s daily adventures</p>
+                  <p className="miko-adventures-text">{'Miko\'s Adventure'}<br/><br/> A pixel art game of<br/>my Shiba inu’s daily adventures<br/><br/><a className="historia-link" href="https://github.com/cecillesalazar/Miko-Adventures">Click here to see it on Github!</a></p>
                 </div>
 
                 <div className="miko-adventures-stats-container">
