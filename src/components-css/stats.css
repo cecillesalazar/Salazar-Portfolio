@@ -4,7 +4,9 @@
 }
 
 .stats-header {
+  font-size: 65px;
   padding-bottom: 40px;
+  text-shadow: 0 0 0px #c22303, 0 0 15px #ffe52c;
 }
 
 #categories{
@@ -150,9 +152,6 @@
 }
 
 @media only screen and (max-width: 1100px) {
-  .stats-header {
-    font-size: 55px;
-  }
 
   #categories div h1 {
     font-size: 25px;
@@ -165,7 +164,7 @@
 
 @media only screen and (max-width: 950px) {
   .stats-header {
-    font-size: 50px;
+    font-size: 57.5px;
   }
 
   #categories div h1 {
@@ -179,7 +178,7 @@
 
 @media only screen and (max-width: 850px) {
   .stats-header {
-    font-size: 45px;
+    font-size: 55px;
   }
 
   #categories div h1 {
@@ -193,7 +192,7 @@
 
 @media only screen and (max-width: 750px) {
   .stats-header {
-    font-size: 40px;
+    font-size: 50px;
   }
 
   #categories div h1 {
@@ -207,7 +206,7 @@
 
 @media only screen and (max-width: 700px) {
   .stats-header {
-    font-size: 35px;
+    font-size: 45px;
   }
 
   #categories div h1 {
@@ -221,7 +220,7 @@
 
 @media only screen and (max-width: 650px) {
   .stats-header {
-    font-size: 30px;
+    font-size: 42.5px;
   }
 
   #categories div h1 {
@@ -235,7 +234,7 @@
 
 @media only screen and (max-width: 550px) {
   .stats-header {
-    font-size: 27px;
+    font-size: 35px;
   }
 
   #categories div h1 {
@@ -249,7 +248,7 @@
 
 @media only screen and (max-width: 520px) {
   .stats-header {
-    font-size: 25px;
+    font-size: 33px;
   }
 
   #categories div h1 {
@@ -263,7 +262,7 @@
 
 @media only screen and (max-width: 450px) {
   .stats-header {
-    font-size: 20px;
+    font-size: 32px;
   }
 
   #categories div h1 {
@@ -272,5 +271,11 @@
 
   #categories div p {
     font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .stats-header {
+    font-size: 30px;
   }
 }

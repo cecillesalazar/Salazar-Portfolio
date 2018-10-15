@@ -1,4 +1,5 @@
 import React from 'react';
+import SocialMedia from './socialmedia';
 import '../components-css/contact.css';
 
 export default class Contact extends React.Component {
@@ -16,6 +17,11 @@ export default class Contact extends React.Component {
             <br/>
             <br/>
             <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <SocialMedia />
             <br/>
             <br/>
             <br/>

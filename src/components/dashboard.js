@@ -5,7 +5,6 @@ import Stats from './stats';
 import Projects from './projects';
 import Contact from './contact';
 import Sidebar from './sidebar';
-import SocialMedia from './socialmedia';
 import TypeWriter from 'react-typewriter';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
@@ -31,7 +30,6 @@ export default class Dashboard extends React.Component {
           <Stats />
           <Projects />
           <Contact />
-          <SocialMedia />
         </div>
       )
     }

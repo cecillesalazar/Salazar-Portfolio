@@ -118,6 +118,22 @@ export default class Stats extends React.Component {
                 <p>Proficiency Level: Beginner</p>
             </div>
           </li>
+          <li class="pusher"></li>
+          <li class="pusher"></li>
+          	<li>
+              <div>
+                <img src="https://i.postimg.cc/FKknNCpF/Screen-Shot-2018-10-14-at-5-21-00-PM.png" alt=""/>
+                <h1>Golang</h1>
+                <p>Proficiency Level: Beginner</p>
+            </div>
+          </li>
+          <li>
+              <div>
+                <img src="https://i.postimg.cc/htz0dzdp/Screen-Shot-2018-10-14-at-5-30-54-PM.png" alt=""/>
+                <h1>Docker</h1>
+                <p>Proficiency Level: Beginner</p>
+            </div>
+          </li>
         </ul>
         <br/>
         <br/>
