@@ -76,22 +76,22 @@ export default class Projects extends React.Component {
           </div>
 
             <div className="third-col">
-              <div className="Guidepost">
-                <p className="guidepost-text">Guidepost<br/><br/>A daily advice generator for<br/>self help geeks<br/><br/><a className="historia-link" href="https://github.com/cecillesalazar/Guidepost">Click here to see it on Github!</a></p>
+              <div className="Go">
+                <p className="go-text">Go!<br/><br/>An nature lovers app that creates<br/>communities around local nature spots<br/><br/><a className="go-link" href="https://dry-waters-99312.herokuapp.com">Click here to see it Live!</a><br/><br/><a className="historia-link" href="https://github.com/cecillesalazar/Go">Click here to see it on Github!</a></p>
               </div>
 
-              <div className="guidepost-stats-container">
+              <div className="go-stats-container">
                 <p className="labels">HTML5</p>
                 <div className="border">
                   <div className="bar" style={{ width: "15%" }}>10%</div>
                 </div>
                 <p className="labels">Node</p>
                 <div className="border">
-                  <div className="bar" style={{ width: "25%" }}>20%</div>
+                  <div className="bar" style={{ width: "35%" }}>30%</div>
                 </div>
                 <p className="labels">React</p>
                 <div className="border">
-                  <div className="bar" style={{ width: "35%" }}>30%</div>
+                  <div className="bar" style={{ width: "45%" }}>40%</div>
                 </div>
                 <p className="labels">Bcrypt</p>
                 <div className="border">
@@ -101,9 +101,9 @@ export default class Projects extends React.Component {
                 <div className="border">
                   <div className="bar" style={{ width: "10%" }}>5%</div>
                 </div>
-                <p className="labels">GraphQL</p>
+                <p className="labels">Leaflet</p>
                 <div className="border">
-                  <div className="bar" style={{ width: "35%" }}>30%</div>
+                  <div className="bar" style={{ width: "15%" }}>10%</div>
                 </div>
               </div>
             </div>
@@ -112,7 +112,7 @@ export default class Projects extends React.Component {
             <div className="col-holder2">
               <div className="fourth-col">
                 <div className="Miko-Adventures">
-                  <p className="miko-adventures-text">{'Miko\'s Adventure'}<br/><br/> A pixel art game of<br/>my Shiba inu’s daily adventures<br/><br/><a className="historia-link" href="https://github.com/cecillesalazar/Miko-Adventures">Click here to see it on Github!</a></p>
+                  <p className="miko-adventures-text">*~Work in Progress~*<br/>{'Miko\'s Adventure'}<br/><br/> A pixel art game of<br/>my Shiba inu’s daily adventures<br/><br/><a className="miko-adventures-link" href="https://cecillesalazar.github.io/Miko-Adventures/">Click here to see it Live!</a><a className="historia-link" href="https://github.com/cecillesalazar/Miko-Adventures">Click here to see it on Github!</a></p>
                 </div>
 
                 <div className="miko-adventures-stats-container">
@@ -143,7 +143,6 @@ export default class Projects extends React.Component {
                 </div>
               </div>
           </div>
-
         </div>
     )
   }

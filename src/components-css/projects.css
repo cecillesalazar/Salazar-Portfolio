@@ -106,11 +106,11 @@
   margin: 1%;
 }
 
-.Guidepost {
+.Go {
   position: relative;
   height: 200px;
   width: 300px;
-  background-image: url('https://i.postimg.cc/FsXwz1bT/Screen_Shot_2018-09-26_at_6.29.01_PM.png');
+  background-image: url('https://i.postimg.cc/nhy2jkfC/Screen-Shot-2018-10-12-at-2-21-19-PM.png');
   background-size: cover;
   background-repeat: no-repeat;
   display: inline-block;
@@ -159,6 +159,10 @@
   color: #fff;
 }
 
+.historia-link:hover {
+  color: #c4d70c;
+}
+
 .Miko-Adventures:hover .miko-adventures-text {
   opacity: 1;
   visibility: visible;
@@ -182,12 +186,24 @@
   transition: opacity .2s, visibility .2s;
 }
 
-.Guidepost:hover .guidepost-text {
+.miko-adventures-link {
+  text-decoration: none;
+}
+
+.miko-adventures-link:visited {
+  color: #fff;
+}
+
+.miko-adventures-link:hover {
+  color: 	#c4d70c;
+}
+
+.Go:hover .go-text {
   opacity: 1;
   visibility: visible;
 }
 
-.guidepost-text {
+.go-text {
   margin: 0%;
   position: absolute;
   top: 0;
@@ -203,6 +219,18 @@
   visibility: hidden;
   opacity: 0;
   transition: opacity .2s, visibility .2s;
+}
+
+.go-link {
+  text-decoration: none;
+}
+
+.go-link:visited {
+  color: #fff;
+}
+
+.go-link:hover {
+  color: 	#c4d70c;
 }
 
 .Atlas:hover .atlas-text {
@@ -236,6 +264,10 @@
   color: #fff;
 }
 
+.atlas-link:hover {
+  color: 	#c4d70c;
+}
+
 .historia-stats-container {
   position: relative;
   height: 300px;
@@ -252,7 +284,7 @@
   margin: 1%;
 }
 
-.guidepost-stats-container {
+.go-stats-container {
   position: relative;
   height: 300px;
   width: 300px;
