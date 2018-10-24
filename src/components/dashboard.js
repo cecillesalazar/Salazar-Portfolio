@@ -15,22 +15,26 @@ export default class Dashboard extends React.Component {
 
   render() {
       return (
-        <div className="dashboard">
-          <Sidebar />
-          <div className="tagline-container">
-            <h1 className="tagline">
-              <TypeWriter typing={1}>
-              Full Stack Developer
-              <br/>Design Enthusiast
-              <br/>Proud Shiba mom :)
-              </TypeWriter>
-            </h1>
+        <main>
+          <div className="dashboard">
+            <Sidebar />
+            <section className="tagline-container">
+              <h1 className="tagline">
+                <TypeWriter typing={1}>
+                  Full Stack Developer
+                  <br/>Design Enthusiast
+                  <br/>Proud Shiba mom :)
+                </TypeWriter>
+              </h1>
+            </section>
+            <section className="scroll-content">
+              <Floats />
+              <Stats />
+              <Projects />
+              <Contact />
+            </section>
           </div>
-          <Floats />
-          <Stats />
-          <Projects />
-          <Contact />
-        </div>
+        </main>
       )
     }
 }

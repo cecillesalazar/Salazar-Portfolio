@@ -4,7 +4,7 @@ import '../components-css/sidebar.css';
 export default class Sidebar extends React.Component {
   render() {
     return (
-      <div className="sidebar">
+      <section className="sidebar">
         <div className="red-right"></div><div className="green-right">
         </div><div className="blue-right">
         </div><div className="orange">
@@ -12,7 +12,7 @@ export default class Sidebar extends React.Component {
         </div><div className="blue">
         </div><div className="green">
         </div><div className="red"></div>
-      </div>
+      </section>
     )
   }
 }
