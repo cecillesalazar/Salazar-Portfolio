@@ -13,7 +13,6 @@ export default class Contact extends React.Component {
         <section className="contact-content-spacing">
             <br/>
             <ul>
-              <li className="contact-li">Github: cecillesalazar</li>
               <li className="contact-li">Email: cecillersalazar@gmail.com</li>
             </ul>
             <br/>
