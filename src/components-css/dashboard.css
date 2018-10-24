@@ -17,15 +17,31 @@ body {
   text-shadow: 0 0 0px #c22303, 0 0 15px #ffe52c;
 }
 
+.about-me {
+  position: relative;
+  font-size: 40px;
+  padding-top: 100px;
+  text-shadow: 0 0 0px #c22303, 0 0 15px #ffe52c;
+}
+
 @media only screen and (max-width: 1000px) {
   .tagline {
     font-size: 60px;
   }
+
+  .about-me {
+    font-size: 32px;
+  }
+
 }
 
 @media only screen and (max-width: 850px) {
   .tagline {
     font-size: 55px;
+  }
+
+  .about-me {
+    font-size: 27.5px;
   }
 }
 
@@ -41,12 +57,20 @@ body {
     font-size: 45px;
     padding-top: 140px;
   }
+
+  .about-me {
+    font-size: 25px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .tagline {
     font-size: 40px;
     padding-top: 130px;
+  }
+
+  .about-me {
+    font-size: 22px;
   }
 }
 
@@ -55,6 +79,10 @@ body {
     font-size: 35px;
     padding-top: 120px;
   }
+
+  .about-me {
+    font-size: 20px;
+  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -62,11 +90,27 @@ body {
     font-size: 32px;
     padding-top: 110px;
   }
+
+  .about-me {
+    font-size: 18px;
+  }
 }
 
 @media only screen and (max-width: 420px) {
   .tagline {
     font-size: 30px;
     padding-top: 100px;
+  }
+
+  .about-me {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+
+  .about-me {
+    font-size: 13px;
+    text-shadow: 0 0 0px #c22303, 0 0 10px #ffe52c;
   }
 }
