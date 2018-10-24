@@ -11,7 +11,7 @@ export default class Stats extends React.Component {
         <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css' />
 
         <section className="stats-header-container">
-          <h1 className="stats-header">Tools I like to work with...</h1>
+          <h1 className="stats-header">My Tools</h1>
           <br/>
         </section>
 

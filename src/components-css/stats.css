@@ -312,9 +312,6 @@
 }
 
 @media only screen and (max-width: 320px) {
-  .stats-header {
-    font-size: 26.5px;
-  }
 
   #categories div h1 {
     font-size: 10.3px;
