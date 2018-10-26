@@ -123,49 +123,17 @@
 
 @media only screen and (max-width: 500px) {
   .floating-one {
-    height: 120px;
-    width: 120px;
-    margin-left: 1px;
+    height: 200px;
+    width: 200px;
   }
 
   .floating-two {
-    height: 100px;
-    width: 100px;
-    margin-left: .5px;
+    height: 200px;
+    width: 200px;
   }
 
   .floating-three {
-    height: 120px;
-    width: 120px;
-    margin-left: .5px;
-  }
-}
-
-@media only screen and (max-width: 420px) {
-  .floating-one {
-    height: 110px;
-    width: 110px;
-    margin-left: 1px;
-  }
-
-  .floating-two {
-    height: 90px;
-    width: 90px;
-    margin-left: .5px;
-  }
-
-  .floating-three {
-    height: 110px;
-    width: 110px;
-    margin-left: .5px;
-  }
-}
-
-@media only screen and (max-width: 410px) {
-
-  .floating-two {
-    height: 90px;
-    width: 90px;
-    top: 4%;
+    height: 200px;
+    width: 200px;
   }
 }
