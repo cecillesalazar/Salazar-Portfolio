@@ -31,7 +31,7 @@ export default class Dashboard extends React.Component {
               <Floats />
               <div className="about-me">
                 <br/>Code that brings joy is the goal.
-                <br/>Which is why I like making games.
+                <br/>Which is why I make niche games.
                 <br/>My dream job is to bring that joy
                 <br/>into a diverse team with a product
                 <br/>that brings communities together.
